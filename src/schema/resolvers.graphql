@@ -1,0 +1,5 @@
+{
+  Query: {
+    hello: (_, { name }) => `Hello ${name || 'World'}! What's up?`,
+  },
+}
