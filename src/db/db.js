@@ -5,7 +5,8 @@ export const db = {
       name: "tuto graphQL",
       content: "terminer module Query",
       status: "IN_PROGRESS",
-      userId:1
+      userId: 1,
+      
     },
     {
       id: 2,
@@ -26,7 +27,8 @@ export const db = {
     {
       id: 1,
       name: "fabezio",
-      email: "fabezio@outlook.fr"
+      email: "fabezio@outlook.fr",
+      todos: [1, 3]
     },
     {
       id: 2,
